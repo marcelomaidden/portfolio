@@ -1,3 +1,16 @@
 body {
   background: #1B1B1E;
 }
+
+.poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
+.playfair-display {
+  font-family: font-family: 'Playfair Display', serif;;
+}
+
+.roboto {
+  font-family: 'Roboto', sans-serif;
+}
+
