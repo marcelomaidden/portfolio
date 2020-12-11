@@ -42,6 +42,7 @@ Open index.html in your browser.
 - Font Awesome
 - W3schools
 - Twitter Boostrap
+- Google Fonts
 
 ## 🤝 Contributing
 

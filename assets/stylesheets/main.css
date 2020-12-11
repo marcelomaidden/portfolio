@@ -7,10 +7,111 @@ body {
 }
 
 .playfair-display {
-  font-family: font-family: 'Playfair Display', serif;;
+  font-family: 'Playfair Display', serif;;
 }
 
 .roboto {
   font-family: 'Roboto', sans-serif;
 }
 
+:root {
+  --header-red: #DB4747;
+  --white: #FFFFFF;
+}
+
+/* header */
+
+.about-me * {
+  left: 547px;
+}
+
+header {
+  height: 600px;
+}
+
+header h1 {
+  font-size: 110px;
+}
+
+.name {
+  top: 326px;
+  position: absolute;
+  width: 484px;
+  height: 220px;
+  top: 326px;
+  line-height: 100%;
+}
+
+.hello {
+  width: 504px;
+  height: 24px;
+  top: 302px;
+  line-height: 24px;
+}
+
+header span {
+  font-size: 16px;
+}
+
+.introduction {
+  width: 564px;
+  height: 108px;
+  top: 586px;
+  line-height: 27px;
+}
+
+header div {
+  font-size: 18px;
+}
+
+header span.red {
+  width: 113px;
+  height: 21px;
+  top: 737px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: var(--header-red)
+}
+
+.red-ball {
+  width: 94px;
+  height: 94px;
+  left: 1017px;
+  top: 302px;
+  background: var(--header-red);
+  mix-blend-mode: lighten;
+}
+
+.see-separator {
+  width: 70px;
+  height: 0px;
+  left: 680px;
+  top: 747px;
+  border: 1px solid var(--white);
+}
+
+.numbers {
+  width: 82px;
+  height: 150px;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 100px;
+  text-align: right;
+  color: var(--white);
+  opacity: 0.2;
+}
+
+.number1 {
+  left: 447px;
+  top: 210px;
+  line-height: 150px;
+}
+
+.number2 {
+  width: 116px;
+  height: 80px;
+  left: 169px;
+  top: 909px;
+  line-height: 80%;
+}
