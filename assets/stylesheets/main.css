@@ -108,10 +108,119 @@ header span.red {
   line-height: 150px;
 }
 
+.portfolio * {
+  left: 286px;
+}
+
 .number2 {
   width: 116px;
   height: 80px;
-  left: 169px;
   top: 909px;
+  left: 169px;
   line-height: 80%;
+}
+
+.about-me ul {
+  top: 720px;
+  left: 760px;
+  font-size: 30px;
+}
+
+.portfolio h1 {
+  width: 430px;
+  height: 110px;
+  top: 984px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 100%;
+}
+
+.my-works {
+  width: 504px;
+  height: 24px;
+  left: 286px;
+  top: 960px;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 24px;
+}
+
+
+/* header mobile */
+@media (max-width: 767px){
+  .about-me *,
+  section.portfolio * {
+    left: 16px;
+  }
+
+  .number1 {
+    top: 0;
+  }
+
+  .number2 {
+    top: 571px;
+  }
+
+  .my-works {
+    top: 620px;
+    width: fit-content;
+  }
+
+  .portfolio h1 {
+    top: 650px;
+  }
+
+  .red-ball {
+    top: 76px;
+    left: 255px;
+    width: 50px;
+    height: 50px;
+  }
+
+  .numbers {
+    font-size: 50px;
+    width: 41px;
+    height: 75px;
+  }
+
+  header span, 
+  header div {
+    font-size: 12px;
+  }
+
+  header h1 {
+    font-size: 50px;
+  }
+
+  .hello {
+    width: 289px;
+    height: 18px;
+    top: 95px;
+  }
+
+  .name {
+    width: 288px;
+    height: 100px;
+    top: 113px;    
+  }
+
+  .introduction {
+    top: 243px;
+    width: 288px;
+    height: 90px;
+  }
+
+  header span.red {
+    top: 420px;
+  }
+
+  .see-separator {
+    width: 70px;
+    top: 470px;
+  }
+
+  .about-me ul {
+    top: 490px;
+    left: 16px;
+  }
 }
