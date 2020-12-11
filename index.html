@@ -13,9 +13,40 @@
 </head>
 <body>
   <header class = 'd-flex'>
+    <navbar>
+      <a target = 'blank'
+          class='fa fa-bars d-flex d-md-none 
+          position-absolute hamburger-icon text-white text-decoration-none'>
+      </a>
+      <div class = 'hidden-menu position-absolute poppins'>
+          <ul class="list-unstyled d-flex-flex-column-pt-3">
+            <li>
+              <a class = 'text-white text-decoration-none font-weight-bold' href="#hello">Hello</a>
+            </li>
+            <li>
+              <a class = 'text-white text-decoration-none font-weight-bold' href="#portfolio">Portfolio</a>
+            </li>
+            <li>
+              <a class = 'text-white text-decoration-none font-weight-bold' href="#services">Services</a>
+            </li>
+            <li>
+              <a class = 'text-white text-decoration-none font-weight-bold' href="#contact">Contact</a>
+            </li>
+          </ul>
+      </div>
+      <div class="menu-md position-absolute">
+        <ul class="list-unstyled d-none d-md-flex">
+          <li><a href="#hello" class="m-3 hello text-white text-decoration-none font-weight-bold">Hello</a></li>
+          <li><a href="#portfolio" class="m-3 text-white text-decoration-none font-weight-bold">Portfolio</a></li>
+          <li><a href="#services" class="m-3 text-white text-decoration-none font-weight-bold">Services</a></li>
+          <li><a href="#contact" class="m-3 text-white text-decoration-none font-weight-bold">Contact</a></li>
+        </ul>
+      </div>
+    </navbar>
     <section class = 'about-me text-white d-flex'>
       <span class = 'number1 numbers position-absolute poppins'>01</span>
-      <span class = 'position-absolute poppins hello'>Hello I'm</span>
+      <span class = 'position-absolute poppins hello' id = 'hello'>Hello I'm</span>
+      <a href="" name="hello"></a>
       <i class='red-ball position-absolute rounded-circle'>
       </i>
       <h1 class='position-absolute playfair-display name'>
@@ -51,7 +82,7 @@
     <section class = 'portfolio d-flex text-white'>
       <span class = 'number2 numbers position-absolute poppins'>02</span>
       <span class = 'position-absolute poppins my-works'>My recent works</span>
-      <h1 class = 'playfair-display position-absolute'>Portfolio</h1>
+      <h1 class = 'playfair-display position-absolute' id = "portfolio">Portfolio</h1>
     </section>
   </header>  
   <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js' integrity='sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW' crossorigin='anonymous'></script>
