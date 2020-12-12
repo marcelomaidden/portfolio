@@ -192,7 +192,7 @@ header span.red {
 }
 
 .grid-full {
-  grid-template-rows: 1fr;
+  grid-template-rows: 600px;
 }
 
 .first-project {
@@ -206,7 +206,7 @@ header span.red {
 }
 
 .main-project {
-  background: linear-gradient(to bottom, rgba(0,0,0,1), rgba(235, 229, 229, 0.2)), 
+  background: linear-gradient(to bottom, rgba(0,0,0,1), rgba(255, 255, 255, 0), rgba(0,0,0,1)), 
   url('/assets/images/main-project.jpg') center / 100% no-repeat;
 }
 
@@ -214,8 +214,29 @@ header span.red {
   font-weight: 300;
   font-size: 60px;
   line-height: 80%;
+  margin: 50px;
 }
 
+.main-project div.languages {
+  width: 132px;
+  height: 40px;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.projects form {
+  bottom: 20px;
+  left: 40px;
+}
+
+.projects button {
+  width: 212px;
+  height: 51px;
+  background-color: var(--header-red);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+}
 
 /* header mobile */
 @media (max-width: 767px){
