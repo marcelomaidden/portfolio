@@ -108,6 +108,7 @@ header span.red {
   line-height: 150px;
 }
 
+/* header portfolio */
 .portfolio * {
   left: 286px;
 }
@@ -168,11 +169,66 @@ header span.red {
   transform: rotate(90deg);
 }
 
+/* projects */
+.projects, 
+.grid-two-rows,
+.grid-full {
+  display: grid;
+}
+
+.projects {
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: 600px;
+  margin-top: 600px;
+}
+
+.grid-two-rows,
+.grid-full {
+  grid-template-columns: 1fr;
+}
+
+.grid-two-rows {
+  grid-auto-rows: 300px;
+}
+
+.grid-full {
+  grid-template-rows: 1fr;
+}
+
+.first-project {
+  background: linear-gradient(to bottom, rgba(0,0,0,1), rgba(235, 229, 229, 0.2)), 
+  url('/assets/images/first-project.jpg') center / 100% no-repeat;
+}
+
+.second-project {
+  background: linear-gradient(to bottom, rgba(0,0,0,1), rgba(235, 229, 229, 0.2)), 
+  url('/assets/images/second-project.jpg') center / 100% no-repeat;
+}
+
+.main-project {
+  background: linear-gradient(to bottom, rgba(0,0,0,1), rgba(235, 229, 229, 0.2)), 
+  url('/assets/images/main-project.jpg') center / 100% no-repeat;
+}
+
+.main-project h1 {
+  font-weight: 300;
+  font-size: 60px;
+  line-height: 80%;
+}
+
+
 /* header mobile */
 @media (max-width: 767px){
   .about-me *,
   section.portfolio * {
     left: 16px;
+  }
+
+  .projects,
+  .grid-two-rows,
+  .grid-full {
+    margin-top: 70px;
+    grid-template-columns: 1fr;
   }
 
   .hamburger-icon {
