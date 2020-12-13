@@ -1,5 +1,5 @@
 body {
-  background: #1B1B1E;
+  background: #1b1b1e;
 }
 
 main {
@@ -11,7 +11,7 @@ main {
 }
 
 .playfair-display {
-  font-family: 'Playfair Display', serif;;
+  font-family: 'Playfair Display', serif;
 }
 
 .roboto {
@@ -19,8 +19,8 @@ main {
 }
 
 :root {
-  --header-red: #DB4747;
-  --white: #FFFFFF;
+  --header-red: #db4747;
+  --white: #fff;
 }
 
 /* header */
@@ -42,7 +42,6 @@ header h1 {
   position: absolute;
   width: 484px;
   height: 220px;
-  top: 326px;
   line-height: 100%;
 }
 
@@ -75,7 +74,7 @@ header span.red {
   font-weight: 500;
   font-size: 18px;
   line-height: 21px;
-  color: var(--header-red)
+  color: var(--header-red);
 }
 
 .red-ball {
@@ -89,7 +88,7 @@ header span.red {
 
 .see-separator {
   width: 70px;
-  height: 0px;
+  height: 0;
   left: 680px;
   top: 747px;
   border: 1px solid var(--white);
@@ -152,7 +151,7 @@ header span.red {
   display: none;
   z-index: 100;
   font-weight: 400;
-  width: 67px;
+  width: 200px;
   height: 256px;
   font-size: 16px;
   line-height: 400%;
@@ -170,7 +169,7 @@ header span.red {
 }
 
 /* projects */
-.projects, 
+.projects,
 .grid-two-rows,
 .grid-full {
   display: grid;
@@ -196,18 +195,21 @@ header span.red {
 }
 
 .first-project {
-  background: linear-gradient(to bottom, rgba(0,0,0,1), rgba(255, 255, 255, 0),rgba(0,0,0,0.8)), 
-  url('../images/first-project.png') 10% / 110% no-repeat;
+  background:
+    linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.8)),
+    url('../images/first-project.png') 10% / 110% no-repeat;
 }
 
 .second-project {
-  background: linear-gradient(to bottom, rgba(0,0,255,0.6), rgba(0, 0, 0, 0.5), rgba(0,255,0,0.4)), 
-  url('../images/second-project.png') center / 100% no-repeat;
+  background:
+    linear-gradient(to bottom, rgba(0, 0, 255, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 255, 0, 0.4)),
+    url('../images/second-project.png') center / 100% no-repeat;
 }
 
 .main-project {
-  background: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0, 0, 0, 0.5), rgba(255,255,255,0)), 
-  url('../images/main-project.png') center / 110% no-repeat;
+  background:
+    linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0)),
+    url('../images/main-project.png') center / 110% no-repeat;
 }
 
 .main-project h1 {
@@ -249,24 +251,33 @@ div.languages {
   opacity: 0.9;
 }
 
+.ruby-game iframe {
+  width: 100%;
+  height: 100%;
+}
+
 .tic-tac-toe {
-  background: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0, 0, 0, 0.5), rgba(255,255,255,0)), 
-  url('../images/tic-tac-toe.png') center / 100% no-repeat;
+  background:
+    linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0)),
+    url('../images/tic-tac-toe.png') center / 100% no-repeat;
 }
 
 .shop-main-project {
-  background: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0, 0, 0, 0.5), rgba(255,255,255,0)), 
-  url('../images/online-shop-full.png') center / 100% no-repeat;
+  background:
+    linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0)),
+    url('../images/online-shop-full.png') center / 100% no-repeat;
 }
 
 .shop-project {
-  background: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0, 0, 0, 0.5), rgba(255,255,255,0)), 
-  url('../images/online-shop-mini.png') center / 100% no-repeat;
+  background:
+    linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0)),
+    url('../images/online-shop-mini.png') center / 100% no-repeat;
 }
 
 .shop-project-mini {
-  background: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0, 0, 0, 0.5), rgba(255,255,255,0)), 
-  url('../images/online-shop-mini-2.png') center / 100% no-repeat;
+  background:
+    linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0)),
+    url('../images/online-shop-mini-2.png') center / 100% no-repeat;
 }
 
 .about-me {
@@ -281,12 +292,16 @@ div.languages {
   grid-template-columns: repeat(2, 1fr);
 }
 
+.hidden-menu,
+.knowledge {
+  background: #222123;
+  box-shadow: 0 2px 24px rgba(0, 0, 0, 0.25);
+}
+
 .knowledge {
   height: 245px;
   width: 245px;
   border-radius: 4px;
-  background: #222123;
-  box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.25);
 }
 
 .box {
@@ -307,7 +322,7 @@ div.languages {
 }
 
 .box-red {
-  background-color: rgba(255,0,0, 0.4);
+  background-color: rgba(255, 0, 0, 0.4);
 }
 
 .fa-hashtag {
@@ -329,7 +344,7 @@ div.languages {
   font-weight: normal;
   font-size: 14px;
   letter-spacing: -0.0525em;
-  color: #7D7C84;
+  color: #7d7c84;
 }
 
 .about-me h1 {
@@ -352,12 +367,11 @@ div.languages {
 .description p {
   width: 564px;
   height: 108px;
-  font-family: Poppins;
   font-size: 18px;
   line-height: 27px;
 }
 
-.get-my-resume a, 
+.get-my-resume a,
 .get-my-resume a:visited {
   width: 143px;
   height: 27px;
@@ -369,7 +383,7 @@ div.languages {
 }
 
 /* mobile */
-@media (max-width: 767px){
+@media (max-width: 767px) {
   .about-me *,
   section.portfolio *,
   .knowledge {
@@ -389,7 +403,7 @@ div.languages {
   .about-me {
     grid-auto-rows: 1400px;
   }
-  
+
   .hamburger-icon {
     width: 30px;
     height: 1px;
@@ -398,10 +412,9 @@ div.languages {
     font-size: 36px;
   }
 
-  .hamburger-icon:hover +
-  .hidden-menu,
-  .hidden-menu:hover {
-    display: block;
+  .hidden-menu:hover,
+  .hamburger-icon:hover + .hidden-menu {
+    display: flex;
   }
 
   .number1 {
@@ -414,7 +427,12 @@ div.languages {
 
   .my-works {
     top: 620px;
-    width: fit-content;
+    width: 100%;
+  }
+
+  header h1,
+  .description h1 {
+    font-size: 50px;
   }
 
   .portfolio h1 {
@@ -434,14 +452,9 @@ div.languages {
     height: 75px;
   }
 
-  header span, 
+  header span,
   header div {
     font-size: 12px;
-  }
-
-  header h1,
-  .description h1 {
-    font-size: 50px;
   }
 
   .description p {
@@ -460,7 +473,7 @@ div.languages {
   .name {
     width: 288px;
     height: 100px;
-    top: 113px;    
+    top: 113px;
   }
 
   .introduction {
@@ -485,5 +498,5 @@ div.languages {
 
   .main-project h1 {
     margin-top: 100px;
-  }  
+  }
 }
