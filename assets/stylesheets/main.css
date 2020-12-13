@@ -132,8 +132,6 @@ header span.red {
   width: 430px;
   height: 110px;
   top: 984px;
-  font-style: normal;
-  font-weight: normal;
   line-height: 100%;
 }
 
@@ -142,8 +140,6 @@ header span.red {
   height: 24px;
   left: 286px;
   top: 960px;
-  font-style: normal;
-  font-weight: normal;
   line-height: 24px;
 }
 
@@ -333,10 +329,37 @@ header span.red {
   color: var(--white);
 }
 
+.description h1 {
+  width: 474px;
+  height: 110px;
+  font-size: 110px;
+  line-height: 100%;
+}
+
+.description p {
+  width: 564px;
+  height: 108px;
+  font-family: Poppins;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.get-my-resume a, 
+.get-my-resume a:visited {
+  width: 143px;
+  height: 27px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: var(--header-red);
+}
+
 /* mobile */
 @media (max-width: 767px){
   .about-me *,
-  section.portfolio * {
+  section.portfolio *,
+  .knowledge {
     left: 16px;
   }
 
@@ -348,6 +371,10 @@ header span.red {
   .my-knowledge {
     grid-template-columns: 1fr;
     margin-top: 70px;
+  }
+
+  .about-me {
+    grid-auto-rows: 1400px;
   }
   
   .hamburger-icon {
@@ -399,8 +426,16 @@ header span.red {
     font-size: 12px;
   }
 
-  header h1 {
+  header h1,
+  .description h1 {
     font-size: 50px;
+  }
+
+  .description p {
+    width: 271px;
+    height: 335px;
+    font-size: 18px;
+    line-height: 27px;
   }
 
   .hello {
