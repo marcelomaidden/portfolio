@@ -244,6 +244,20 @@ header span.red {
   url('https://marcelomaidden.github.io/portfolio/assets/images/tic-tac-toe.png') center / 100% no-repeat;
 }
 
+.shop-main-project {
+  background: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0, 0, 0, 0.5), rgba(255,255,255,0)), 
+  url('https://marcelomaidden.github.io/portfolio/assets/images/shop-main-project.png') center / 100% no-repeat;
+}
+
+.shop-project {
+  background: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0, 0, 0, 0.5), rgba(255,255,255,0)), 
+  url('https://marcelomaidden.github.io/portfolio/assets/images/shop-project.png') center / 100% no-repeat;
+}
+
+.shop-project-mini {
+  background: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0, 0, 0, 0.5), rgba(255,255,255,0)), 
+  url('https://marcelomaidden.github.io/portfolio/assets/images/shop-mproject-mini.png') center / 100% no-repeat;
+}
 /* header mobile */
 @media (max-width: 767px){
   .about-me *,
