@@ -197,17 +197,17 @@ header span.red {
 
 .first-project {
   background: linear-gradient(to bottom, rgba(0,0,0,1), rgba(255, 255, 255, 0),rgba(0,0,0,0.8)), 
-  url('/assets/images/first-project.png') 10% / 110% no-repeat;
+  url('https://marcelomaidden.github.io/portfolio/assets/images/first-project.png') 10% / 110% no-repeat;
 }
 
 .second-project {
   background: linear-gradient(to bottom, rgba(0,0,255,0.6), rgba(0, 0, 0, 0.5), rgba(0,255,0,0.4)), 
-  url('/assets/images/second-project.png') center / 100% no-repeat;
+  url('https://marcelomaidden.github.io/portfolio/assets/images/second-project.png') center / 100% no-repeat;
 }
 
 .main-project {
   background: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0, 0, 0, 0.5), rgba(255,255,255,0)), 
-  url('/assets/images/main-project.png') center / 100% no-repeat;
+  url('https://marcelomaidden.github.io/portfolio/assets/images/main-project.png') center / 110% no-repeat;
 }
 
 .main-project h1 {
@@ -215,6 +215,7 @@ header span.red {
   font-size: 60px;
   line-height: 80%;
   margin: 50px;
+  z-index: 100;
 }
 
 .main-project div.languages {
@@ -236,6 +237,11 @@ header span.red {
   font-size: 18px;
   line-height: 27px;
   text-align: center;
+}
+
+.tic-tac-toe {
+  background: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0, 0, 0, 0.5), rgba(255,255,255,0)), 
+  url('https://marcelomaidden.github.io/portfolio/assets/images/tic-tac-toe.png') center / 100% no-repeat;
 }
 
 /* header mobile */
