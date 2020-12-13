@@ -151,10 +151,28 @@ header span.red {
   display: none;
   z-index: 100;
   font-weight: 400;
-  width: 200px;
-  height: 256px;
+  width: 250px;
+  height: 356px;
   font-size: 16px;
   line-height: 400%;
+}
+
+.hidden-menu ul {
+  border-left: thin solid gray;
+}
+
+.hidden-menu li {
+  padding-right: 30px;
+}
+
+.hidden-menu .numbers {
+  width: 15px;
+  height: 264px;
+  top: -10px;
+  left: -20px;
+  font-size: 12px;
+  line-height: 550%;
+  font-weight: 400;
 }
 
 .menu-md {
@@ -498,5 +516,12 @@ div.languages {
 
   .main-project h1 {
     margin-top: 100px;
+  }
+
+  .hidden-menu .red-ball {
+    width: 20px;
+    height: 20px;
+    top: 300px;
+    left: 20px;
   }
 }
