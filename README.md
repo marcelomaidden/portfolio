@@ -2,7 +2,7 @@
 
 Here goes the description
 
-![screenshot](/assets/screenshot.png)
+![screenshot](./assets/images/screenshot.png)
 
 ## Built With
 
