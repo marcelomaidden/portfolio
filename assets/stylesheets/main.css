@@ -17,6 +17,7 @@ body {
 :root {
   --header-red: #db4747;
   --white: #fff;
+  --box-color: #222123;
 }
 
 /* header */
@@ -220,7 +221,7 @@ header span.red {
 
 .second-project {
   background:
-    linear-gradient(to bottom, rgba(0, 0, 255, 0.6), rgba(0, 0, 0, 0.5), rgba(0, 255, 0, 0.4)),
+    linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.8)),
     url('../images/second-project.png') center / 100% no-repeat;
 }
 
@@ -238,8 +239,18 @@ header span.red {
   z-index: 100;
 }
 
-div.languages {
+.author {
+  bottom: 10px;
+  left: 10px;
+  width: 300px;
+}
+
+.div.languages {
   width: 132px;
+}
+
+div.languages,
+.author {
   height: 40px;
   background: rgba(0, 0, 0, 0.5);
 }
@@ -276,20 +287,20 @@ div.languages {
 
 .tic-tac-toe {
   background:
-    linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0)),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.4), rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0)),
     url('../images/tic-tac-toe.png') center / 100% no-repeat;
 }
 
 .shop-main-project {
   background:
-    linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0)),
+    linear-gradient(to bottom,  rgba(255, 255, 255, 0.4), rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0)),
     url('../images/online-shop-full.png') center / 100% no-repeat;
 }
 
 .shop-project {
   background:
     linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0)),
-    url('../images/online-shop-mini.png') center / 100% no-repeat;
+    url('../images/online-shop-mini.png') center / 50% no-repeat;
 }
 
 .shop-project-mini {
@@ -311,9 +322,15 @@ div.languages {
 }
 
 .hidden-menu,
-.knowledge {
-  background: #222123;
+.knowledge,
+footer {
+  background: var(--box-color);
   box-shadow: 0 2px 24px rgba(0, 0, 0, 0.25);
+}
+
+footer {
+  height: 100px;
+  opacity: 0.5;
 }
 
 .knowledge {
@@ -551,6 +568,10 @@ div.languages {
   .projects .github {
     left: 10px;
     bottom: 100px;
+  }
+
+  footer {
+    height: 300px;
   }
 }
 

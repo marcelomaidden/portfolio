@@ -38,6 +38,7 @@ Open index.html in your browser.
 ## Acknowledments
 - Microverse team for providing amazing design templates for portfolio.
 - Unsplash
+- Graphicburger
 - Pexels
 - Font Awesome
 - W3schools
