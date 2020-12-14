@@ -1,6 +1,6 @@
 # Portfolio
 
-Here goes the description
+Portfolio made following the Microverse's template where I could showcase all my projects and knowledge achieved during the HTML, CSS, Ruby, and Ruby on Rails Curriculum
 
 ![screenshot](./assets/images/screenshot.png)
 
@@ -11,7 +11,7 @@ Here goes the description
 
 ## Live Demo
 
-[Lifestyle articles]()
+[Lifestyle articles](https://marcelomaidden.github.io/portfolio)
 
 
 ## Getting Started
