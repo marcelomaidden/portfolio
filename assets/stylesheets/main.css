@@ -1,7 +1,5 @@
 body {
   background: #1b1b1e;
-  width: 1440px;
-  max-width: 1440px;
 }
 
 main {
@@ -543,11 +541,8 @@ div.languages {
   }
 }
 
-/* tablet */
-
 @media (min-width: 767px) and (max-width: 1023px)
 {
-  .about-me, 
   .my-knowledge {
     grid-template-columns: repeat(2, 1fr);
     margin-top: 70px;
