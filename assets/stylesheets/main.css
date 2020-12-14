@@ -48,9 +48,12 @@ header h1 {
   line-height: 24px;
 }
 
-header span,
-contact span {
+header span {
   font-size: 16px;
+}
+
+.contact h6 {
+  display: inline;
 }
 
 .introduction {
@@ -424,10 +427,6 @@ div.languages {
     margin-top: 70px;
   }
 
-  .description h1 {
-    height: 110px;
-  }
-
   .about-me {
     grid-template-rows: 1440px 600px;
   }
@@ -461,6 +460,10 @@ div.languages {
   header h1,
   .description h1 {
     font-size: 50px;
+  }
+
+  .description h1 {
+    height: 110px;
   }
 
   .portfolio h1 {
@@ -551,13 +554,12 @@ div.languages {
   }
 }
 
-@media (min-width: 767px) and (max-width: 1023px)
-{
+@media (min-width: 767px) and (max-width: 1023px) {
   .my-knowledge {
     grid-template-columns: repeat(2, 1fr);
     margin-top: 70px;
-  }  
-  
+  }
+
   .contact ul {
     width: 50%;
   }
