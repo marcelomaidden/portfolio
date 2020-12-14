@@ -11,7 +11,7 @@ Portfolio made following the Microverse's template where I could showcase all my
 
 ## Live Demo
 
-[Lifestyle articles](https://marcelomaidden.github.io/portfolio)
+[Portfolio](https://marcelomaidden.github.io/portfolio)
 
 
 ## Getting Started
