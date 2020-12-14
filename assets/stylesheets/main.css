@@ -2,10 +2,6 @@ body {
   background: #1b1b1e;
 }
 
-main {
-  overflow-x: hidden;
-}
-
 .poppins {
   font-family: 'Poppins', sans-serif;
 }
@@ -392,13 +388,13 @@ div.languages {
 
 .get-my-resume a,
 .get-my-resume a:visited {
-  width: 143px;
+  width: 243px;
   height: 27px;
-  font-style: normal;
   font-weight: 500;
   font-size: 18px;
   line-height: 27px;
   color: var(--header-red);
+  z-index: 100;
 }
 
 .contact {
@@ -407,7 +403,7 @@ div.languages {
   grid-template-rows: 300px;
 }
 
-.contact .icon {
+.icon {
   font-size: 36px;
 }
 
@@ -538,6 +534,16 @@ div.languages {
   .contact ul {
     width: 100%;
     justify-content: start;
+  }
+
+  .projects .live {
+    left: 10px;
+    bottom: 0;
+  }
+
+  .projects .github {
+    left: 10px;
+    bottom: 100px;
   }
 }
 
