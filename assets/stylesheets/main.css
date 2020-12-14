@@ -374,7 +374,7 @@ div.languages {
 
 .description h1 {
   width: 474px;
-  height: 110px;
+  height: 210px;
   font-size: 110px;
   line-height: 100%;
 }
@@ -422,6 +422,10 @@ div.languages {
   .my-knowledge {
     grid-template-columns: 1fr;
     margin-top: 70px;
+  }
+
+  .description h1 {
+    height: 110px;
   }
 
   .about-me {
