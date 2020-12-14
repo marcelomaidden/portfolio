@@ -2,7 +2,7 @@
 
 Here goes the description
 
-![screenshot]()
+![screenshot](./assets/screenshot.png)
 
 ## Built With
 
@@ -44,6 +44,8 @@ Open index.html in your browser.
 - W3schools
 - Twitter Boostrap
 - Google Fonts
+- Cottonbro photos available on Pexels
+- Luis Quintero photos available on Pexels
 
 ## 🤝 Contributing
 
