@@ -228,7 +228,7 @@ header span.red {
 .main-project {
   background:
     linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0)),
-    url('../images/main-project.png') center / 110% no-repeat;
+    url('../images/main-project.png') center / 140% no-repeat;
 }
 
 .main-project h1 {
@@ -298,8 +298,8 @@ div.languages,
 
 .shop-main-project {
   background:
-    linear-gradient(to bottom, rgba(255, 255, 255, 0.4), rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0)),
-    url('../images/online-shop-full.png') center / 100% no-repeat;
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0)),
+    url('../images/online-shop-full.png') center / 150% no-repeat;
 }
 
 .shop-project {
