@@ -456,9 +456,13 @@ footer {
   .grid-full,
   .about-me,
   .knowledge,
-  .my-knowledge {
+  .my-knowledge,
+  .description h1 {
     grid-template-columns: 1fr;
     margin-top: 70px;
+    width: 400px;
+    max-width: 100%;
+    min-width: 100%;
   }
 
   .about-me {
@@ -500,7 +504,6 @@ footer {
   .my-knowledge,
   .description h1 {
     padding-left: 20px;
-    max-width: 80%;
   }
 
 
