@@ -299,7 +299,7 @@ div.languages,
 .shop-main-project {
   background:
     linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0)),
-    url('../images/online-shop-full.png') center / 150% no-repeat;
+    url('../images/online-shop-full.png') 90% / 245% no-repeat;
 }
 
 .shop-project {
@@ -437,6 +437,18 @@ footer {
   .about *,
   section.portfolio * {
     left: 16px;
+  }
+
+  .shop-main-project {
+    background:
+      linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0)),
+      url('../images/online-shop-full.png') 50% / 260% no-repeat;
+  }
+  
+  .main-project {
+    background:
+      linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0)),
+      url('../images/main-project.png') center / 200% no-repeat;
   }
 
   .projects,
