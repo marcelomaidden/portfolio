@@ -442,13 +442,13 @@ footer {
   .shop-main-project {
     background:
       linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0)),
-      url('../images/online-shop-full.png') 50% / 260% no-repeat;
+      url('../images/online-shop-full.png') 50% / 320% no-repeat;
   }
   
   .main-project {
     background:
       linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0)),
-      url('../images/main-project.png') center / 200% no-repeat;
+      url('../images/main-project.png') center / 250% no-repeat;
   }
 
   .projects,
