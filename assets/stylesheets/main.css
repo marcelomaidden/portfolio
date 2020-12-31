@@ -132,7 +132,6 @@ header span.red {
 }
 
 .portfolio h1 {
-  width: 430px;
   height: 110px;
   top: 984px;
   line-height: 100%;
@@ -242,7 +241,7 @@ header span.red {
 .author {
   bottom: 10px;
   left: 10px;
-  width: 300px;
+  width: 80%;
 }
 
 .div.languages {
@@ -433,6 +432,21 @@ footer {
 }
 
 /* mobile */
+@media (max-width: 320px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .about-me,
+  .grid-full {
+    grid-template-rows: 100%;
+  }
+
+  .introduction {
+    font-size: 8px;
+  }
+}
+
 @media (max-width: 1023px) {
   .about *,
   section.portfolio * {
@@ -444,7 +458,7 @@ footer {
       linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0)),
       url('../images/online-shop-full.png') 50% / 320% no-repeat;
   }
-  
+
   .main-project {
     background:
       linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0)),
@@ -457,16 +471,30 @@ footer {
   .about-me,
   .knowledge,
   .my-knowledge,
-  .description h1 {
+  .description,
+  .description h1, 
+  .description p,
+  .about,
+  .contact {
     grid-template-columns: 1fr;
     margin-top: 70px;
-    width: 400px;
-    max-width: 100%;
-    min-width: 100%;
+  }
+
+  .description h1, 
+  .description p {
+    max-width: fit-content;
   }
 
   .about-me {
     grid-template-rows: 1440px 600px;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+
+  .grid-full {
+    grid-template-rows: 100%;
   }
 
   .hamburger-icon {
@@ -505,7 +533,6 @@ footer {
   .description h1 {
     padding-left: 20px;
   }
-
 
   .description h1 {
     height: 110px;
@@ -546,15 +573,18 @@ footer {
     top: 95px;
   }
 
+  .name, 
+  .introduction {
+    width: 80%;
+  }
+
   .name {
-    width: 288px;
     height: 100px;
     top: 113px;
   }
 
   .introduction {
     top: 243px;
-    width: 288px;
     height: 90px;
   }
 
