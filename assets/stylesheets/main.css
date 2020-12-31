@@ -465,6 +465,11 @@ footer {
       url('../images/main-project.png') center / 250% no-repeat;
   }
 
+  header h1,
+  .description h1 {
+    font-size: 50px;
+  }
+
   .projects,
   .grid-two-rows,
   .grid-full,
@@ -472,7 +477,7 @@ footer {
   .knowledge,
   .my-knowledge,
   .description,
-  .description h1, 
+  .description h1,
   .description p,
   .about,
   .contact {
@@ -480,9 +485,9 @@ footer {
     margin-top: 70px;
   }
 
-  .description h1, 
+  .description h1,
   .description p {
-    max-width: fit-content;
+    max-width: 300px;
   }
 
   .about-me {
@@ -521,11 +526,6 @@ footer {
   .my-works {
     top: 620px;
     width: 300px;
-  }
-
-  header h1,
-  .description h1 {
-    font-size: 50px;
   }
 
   .description,
@@ -573,7 +573,7 @@ footer {
     top: 95px;
   }
 
-  .name, 
+  .name,
   .introduction {
     width: 80%;
   }
