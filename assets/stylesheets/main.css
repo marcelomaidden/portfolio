@@ -432,20 +432,6 @@ footer {
 }
 
 /* mobile */
-@media (max-width: 320px) {
-  body {
-    overflow-x: hidden;
-  }
-
-  .about-me,
-  .grid-full {
-    grid-template-rows: 100%;
-  }
-
-  .introduction {
-    font-size: 8px;
-  }
-}
 
 @media (max-width: 1023px) {
   .about *,
@@ -630,6 +616,41 @@ footer {
 
   footer {
     height: 300px;
+  }
+}
+
+@media (max-width: 320px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .about-me,
+  .grid-full {
+    grid-template-rows: 100%;
+  }
+
+  .introduction {
+    font-size: 8px;
+  }
+
+  .first-project {
+    margin: 0;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(255, 255, 255, 0), 
+    rgba(0, 0, 0, 0.8)), url(../images/first-project.png) 10% / 100% no-repeat;
+  }
+  .second-project {
+    margin: 0;
+    background:
+      linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(255, 255, 255, 0), 
+      rgba(0, 0, 0, 0.8)),
+      url('../images/second-project.png') center / 100% no-repeat;
+  }
+  
+  .main-project {
+    margin: 0;
+    background:
+      linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0)),
+      url('../images/main-project.png') center / 100% no-repeat;
   }
 }
 
